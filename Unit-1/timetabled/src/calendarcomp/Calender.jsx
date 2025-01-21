@@ -20,12 +20,12 @@ const Calender = () => {
         <tbody>
           <tr>
             <td className="time">8 am</td>
-            <EventMod event="Starbucks ☕️" color="green" />
+            <EventMod event="Starbucks ☕️" color="green" location="646 Michigan Ave"/>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
-            <EventMod event="Yolk 🍳" color="green" />
+            <EventMod event="Yolk 🍳" color="green" location="355 E Ohio St"/>
             <td></td>
           </tr>
 
@@ -34,15 +34,15 @@ const Calender = () => {
             <td></td>
             <td></td>
             <td></td>
-            <EventMod event="Subway 🚊" color="pink" />
+            <EventMod event="Subway 🚊" color="pink" location="Grand Station"/>
             <td></td>
             <td></td>
-            <EventMod event="The Bean 🫘" color="blue" />
+            <EventMod event="The Bean 🫘" color="blue" location="Millennium Park"/>
           </tr>
           <tr>
             <td className="time">10 am</td>
             <td></td>
-            <EventMod event="River Cruise ⛵️" color="blue" />
+            <EventMod event="River Cruise ⛵️" color="blue" location="Grand Station"/>
             <td></td>
             <td></td>
             <td></td>
@@ -54,7 +54,7 @@ const Calender = () => {
             <td></td>
             <td></td>
             <td></td>
-            <EventMod event="Deep Dish 🍕" color="green" />
+            <EventMod event="Deep Dish 🍕" color="green" location="Giodano's"/>
             <td></td>
             <td></td>
             <td></td>
@@ -67,7 +67,7 @@ const Calender = () => {
             <td></td>
             <td></td>
             <td></td>
-            <EventMod event="Subway 🚊" color="pink" />
+            <EventMod event="Subway 🚊" color="pink" location="Washington Station"/>
             <td></td>
            
           </tr>
@@ -86,19 +86,19 @@ const Calender = () => {
             <td className="time">2 pm</td>
             <td></td>
             <td></td>
-            <EventMod event="Art Institute 🖼" color="blue" />
+            <EventMod event="Art Institute 🖼" color="blue" location="111 S Michigan Ave"/>
             <td></td>
-            <EventMod event="Girl & the Goat" color="green" />
+            <EventMod event="Girl & the Goat" color="green" location="809 W Randolph St"/>
             <td></td>
             <td></td>
           </tr>
           <tr>
             <td className="time">3 pm</td>
-            <EventMod event="Cubs Game ⚾️" color="blue" />
+            <EventMod event="Cubs Game ⚾️" color="blue" location="Wrigley Field"/>
             <td></td>
             <td></td>
             <td></td>
-            <EventMod event="Subway 🚊" color="pink" />
+            <EventMod event="Subway 🚊" color="pink" location="Roosevelt Station"/>
             <td></td>
             <td></td>
           </tr>
@@ -107,7 +107,7 @@ const Calender = () => {
             <td className="time">4 pm</td>
             <td></td>
             <td></td>
-            <EventMod event="Fancy Dinner 🎩" color="green" />
+            <EventMod event="Fancy Dinner 🎩" color="green" location="Maple & Ash"/>
             <td></td>
             <td></td>
             <td></td>
@@ -121,7 +121,7 @@ const Calender = () => {
             <td></td>
             <td></td>
             <td></td>
-            <EventMod event="Shopping 🛍" color="blue" />
+            <EventMod event="Shopping 🛍" color="blue" location="Magnificent Mile"/>
             <td></td>
             
           </tr>
